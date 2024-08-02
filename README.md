@@ -1,4 +1,4 @@
-# pergamin
+# spotifyapp
 
 to run app for first time 
 `cd server && npm install && node server`
