@@ -1,6 +1,6 @@
 # pergamin
 
-to run app 
+to run app for first time 
 `cd server && npm install && node server`
 in next tab run
 `cd app && npm install && npm start`
