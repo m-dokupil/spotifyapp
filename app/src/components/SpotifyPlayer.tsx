@@ -34,8 +34,6 @@ export const SpotifyPlayer: React.FC<SpotifyPlayerProps> = ({ authCode }) => {
       try {
         const response = await spotifyApi.search(search, searchTypes);
 
-        console.log(response);
-
         response && setSearchResults(response);
       } catch (error) {
         console.error("Error fetching search results:", error);

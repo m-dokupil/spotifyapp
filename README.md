@@ -1,8 +1,8 @@
 # pergamin
 
 to run app 
-`cd server && node server`
+`cd server && npm install && node server`
 in next tab run
-`cd app && npm start`
+`cd app && npm install && npm start`
 
-.env added to easier testing ( should be hidden )
+ENV variables are not hidden for easier testing 
